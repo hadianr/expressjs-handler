@@ -75,7 +75,8 @@ app.get('/api/customers/id:', (req, res) => {
 })
 
 // define listener port using 3000
-const port = 3000;
+const port = process.env.PORT || 3000;
+
 app.listen(port, "0.0.0.0", () => {
     console.log(`App is listening on port ${port}`);
 })
