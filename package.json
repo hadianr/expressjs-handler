@@ -1,0 +1,16 @@
+{
+  "name": "expressjs-handler",
+  "version": "1.0.0",
+  "description": "ini adalah latihan expressjs handler",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "Hadian Rahmat",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
